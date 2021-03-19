@@ -1,8 +1,27 @@
 import './App.css';
 import Logo from './img/logo.svg';
 import MainImage from './img/beach-work.jpg';
+import DestinationCard from './components/DestinationCard';
+
 
 function App() {
+let destination = [
+  {
+    city: 'Toronto',
+    averagePrice: 120,
+    propertyCount: 76,
+    imageUrl: '/img/toronto.jpg',
+    imageAlt: 'Toronto skyline',
+  },
+  {
+    city: 'Malibu',
+    averagePrice: 215,
+    propertyCount: 43,
+    imageUrl: '/img/malibu.jpg',
+    imageAlt: 'Cliff in Malibu',
+  }
+]
+
   return (
     <div id="app" className="bg-gray-300">
       <div className="flex bg-gray-100">
@@ -23,6 +42,19 @@ function App() {
           <img className="absolute inset-0 w-full h-full object-cover object-center" src={MainImage} alt="Woman workcationing on the beach" />
         </div>    
       </div>
+
+      <div>
+        <div className="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
+          <h2 className="text-xl text-gray-900">Popular destinations</h2>
+          <p className="text-gray-600">A selection of great work-friendly cities with lots to see and explore.</p>
+          <div className="flex flex-wrap -mx-4">
+            <div className="mt-6 w-full px-4 lg:w-1/2 xl:w-1/3">
+              <DestinationCard destination={destination}/>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
