@@ -1,7 +1,7 @@
 
 function AccountDropdown() {
     return (
-        <div className="relative ml-6">
+        <div className="relative">
             <button className="block h-8 w-8 rounded-full overflow-hidden border-2 border-gray-600 focus:border-white focus:outline-none">
                 <img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80" alt="Your avatar" />
             </button>
