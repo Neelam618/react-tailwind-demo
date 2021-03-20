@@ -1,4 +1,5 @@
 import LogoInverted from './logo-inverted.png'
+import AccountDropdown from './AccountDropdown';
 
 function Navbar() {
     return (
@@ -20,6 +21,7 @@ function Navbar() {
                 <a className="block mt-1 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2" href="#">Trips</a>
                 <a className="block mt-1 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2" href="#">Messages</a> 
             </div>
+            <AccountDropdown />
         </header>
     )
 }
