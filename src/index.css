@@ -20,5 +20,19 @@
 .btn-indigo:active {
     @apply bg-indigo-800;
 }
+@variants responsive {
+    .origin-top-right {
+        transform-origin: top right;
+    }
+    .transition-all {
+        transition-property: all;
+    }
+    .transition-slow {
+        transition-duration: 250ms;
+    }
+    .ease-in {
+        transition-timing-function: cubic-bezier(0.55, .085, .68, .53);
+    }
+}
 
 @tailwind utilities;

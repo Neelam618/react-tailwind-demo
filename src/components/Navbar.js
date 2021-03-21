@@ -3,7 +3,7 @@ import LogoInverted from './logo-inverted.png'
 import AccountDropdown from './AccountDropdown';
 
 function Navbar() {
-    const [isOpen, set] = useState(false);
+    const [isOpen, setNavbar] = useState(true);
 
     return (
         <header className="bg-gray-900 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
@@ -12,7 +12,7 @@ function Navbar() {
                     <img className="h-8" src={LogoInverted} alt="Workcation"/>
                 </div>
                 <div className="sm:hidden">
-                    <button onClick={() => set(!isOpen)} type="button" className="text-gray-500 focus:text-white focus:outline-none hover:text-white">
+                    <button onClick={() => setNavbar(!isOpen)} type="button" className="text-gray-500 focus:text-white focus:outline-none hover:text-white">
                         <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
                             {isOpen ? (
                                 <path fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
