@@ -13,10 +13,10 @@ function AccountDropdown() {
             ) : null}
             {showDropdown ? (
                  <div className="absolute right-0 z-10 w-48 mt-2 py-2 bg-white rounded-lg shadow-xl">
-                 <a className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white" href="#">Account settings</a>
-                 <a className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white" href="#">Support</a>
-                 <a className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white" href="#">Sign out</a>
-             </div>
+                    <a className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white" href="#">Account settings</a>
+                    <a className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white" href="#">Support</a>
+                    <a className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white" href="#">Sign out</a>
+                </div>
             ) : null}
         </div>
     )
