@@ -1,7 +1,21 @@
-import {useState} from 'react';
+import {useState, useCallback, useEffect} from 'react';
 
 function AccountDropdown() {
     const [showDropdown, setShowDropdown] = useState(false);
+
+    const escFunction = useCallback((event) => {
+        if(event.keyCode === 27) {
+            //Do whatever when esc is pressed
+            setShowDropdown(showDropdown);
+        }
+    }, []);
+
+    useEffect(() => {
+        document.addEventListener("keydown", escFunction, false);
+        return () => {
+            document.removeEventListener("keydown", escFunction, false);
+        };
+    }, []);
 
     return (
         <div className="relative">
