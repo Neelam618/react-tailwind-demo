@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import LogoInverted from './logo-inverted.png'
-import AccountDropdown from './AccountDropdown';
+import AccountDropdown from '../AccountDropdown';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
