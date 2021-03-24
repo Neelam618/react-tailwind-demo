@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-tailwind-demo/static/css/main.987dcc35.chunk.css",
+    "main.js": "/react-tailwind-demo/static/js/main.50af86c6.chunk.js",
+    "main.js.map": "/react-tailwind-demo/static/js/main.50af86c6.chunk.js.map",
+    "runtime-main.js": "/react-tailwind-demo/static/js/runtime-main.22fcc119.js",
+    "runtime-main.js.map": "/react-tailwind-demo/static/js/runtime-main.22fcc119.js.map",
+    "static/js/2.3df39394.chunk.js": "/react-tailwind-demo/static/js/2.3df39394.chunk.js",
+    "static/js/2.3df39394.chunk.js.map": "/react-tailwind-demo/static/js/2.3df39394.chunk.js.map",
+    "static/js/3.b7763984.chunk.js": "/react-tailwind-demo/static/js/3.b7763984.chunk.js",
+    "static/js/3.b7763984.chunk.js.map": "/react-tailwind-demo/static/js/3.b7763984.chunk.js.map",
+    "index.html": "/react-tailwind-demo/index.html",
+    "static/css/main.987dcc35.chunk.css.map": "/react-tailwind-demo/static/css/main.987dcc35.chunk.css.map",
+    "static/js/2.3df39394.chunk.js.LICENSE.txt": "/react-tailwind-demo/static/js/2.3df39394.chunk.js.LICENSE.txt",
+    "static/media/beach-work.e87a9d6c.jpg": "/react-tailwind-demo/static/media/beach-work.e87a9d6c.jpg",
+    "static/media/logo.8c02fec4.svg": "/react-tailwind-demo/static/media/logo.8c02fec4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22fcc119.js",
+    "static/js/2.3df39394.chunk.js",
+    "static/css/main.987dcc35.chunk.css",
+    "static/js/main.50af86c6.chunk.js"
+  ]
+}
